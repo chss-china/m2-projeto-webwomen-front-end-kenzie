@@ -1,0 +1,122 @@
+/* Desenvolva sua estilização aqui... */
+
+aside {
+  position: absolute;
+  top: 10px;
+  left: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 503px;
+  height: 150px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 43px;
+}
+@media (max-width: 680px) {
+  aside {
+    height: 20%;
+    max-height: 100%;
+    max-width: 100%;
+    width: 91%;
+    top: 99%;
+    left: 40px;
+  }
+}
+
+.titulo_vagas_selecionada {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  margin-left: 30px;
+}
+.status_vaga {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-2);
+  color: var(--color-grey-2);
+  margin-left: 25px;
+}
+.vagas_selecionadas {
+  list-style: none;
+}
+@media (max-width: 680px) {
+  .vagas_selecionadas {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.titulo_vagas_selecionada {
+  margin-bottom: 40px;
+  margin-top: 16px;
+}
+.titulo_vaga_selecionada_card {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+.div_pai_titulo_botao {
+  display: flex;
+  justify-content: space-between;
+}
+.botao_remover_vaga_selecionada {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  width: 12.25px;
+  height: 14px;
+  align-items: center;
+}
+
+.span_cargo_vagas_selecionadas {
+  /* text-3 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-3);
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  margin-right: 15px;
+
+  /* grey-2 */
+
+  color: var(--color-grey-2);
+}
+.span_cidade_vagas_selecionadas {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-3);
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  margin-right: 15px;
+
+  /* grey-2 */
+
+  color: var(--color-grey-2);
+}
+.li_vaga_selecionada {
+  padding: 32px 28px;
+  gap: 20px;
+  width: 503px;
+  height: 160px;
+  /* grey-6 */
+  background-color: var(--color-grey-6);
+  /* grey-5 */
+  border-bottom: 2px solid var(--color-grey-6);
+  margin-bottom: 5px;
+}
+@media (max-width: 680px) {
+  .li_vaga_selecionada {
+    max-width: 100%;
+    width: 100%;
+    height: 50%;
+    max-height: 100%;
+  }
+}

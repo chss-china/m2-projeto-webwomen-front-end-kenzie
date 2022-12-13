@@ -1,0 +1,111 @@
+header {
+  position: relative;
+}
+@media (max-width: 680px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+}
+.imagemheader {
+  width: 100%;
+  height: 550px;
+  background: rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 680px) {
+  .imagemheader {
+    height: 789px;
+    margin-left: 0px;
+  }
+}
+.container_descricao_header {
+  position: absolute;
+  top: 60px;
+  color: white;
+  z-index: 0;
+  margin-left: 60px;
+}
+@media (max-width: 680px) {
+  .container_descricao_header {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.titulo_header {
+  width: 193.31px;
+  height: 23.97px;
+}
+@media (max-width: 680px) {
+  .titulo_header {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.titulo_header_lugarmulher {
+  width: 857px;
+  height: 72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--title-2);
+  line-height: 72px;
+  /* identical to box height */
+  /* grey-3 */
+  color: var(--color-grey-3);
+}
+@media (max-width: 680px) {
+  .titulo_header_lugarmulher {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 100px;
+    font-size: 35px;
+    margin-left: 0px;
+  }
+}
+.paragrafo_header {
+  /* text-1 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-1);
+  line-height: 36px;
+  /* or 200% */
+  /* grey-5 */
+  color: var(--color-grey-5);
+}
+@media (max-width: 680px) {
+  .paragrafo_header {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.paragrafo_header_negrito {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: var(--text-1);
+  line-height: 36px;
+  color: var(--color-grey-5);
+}
+.botao_header {
+  width: 296px;
+  height: 48px;
+  /* brand-1 */
+  background: var(--color-brand-1);
+  /* brand-1 */
+  border: 2px solid var(--color-brand-1);
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  /* grey-6 */
+
+  color: #ffffff;
+}

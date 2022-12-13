@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/pages/home/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/pages/home/styles/aside.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/pages/home/styles/header.css"/>
+    <link rel="stylesheet" href="/pages/home/styles/main.css"/>
     <title>Webwomen</title>
+    <!--perguntar como faz pra deixar minha imagem do header escura como esta no figma-->
     <meta
       name="description"
       content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
       Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
       e ao redor do mundo?"
     />
-</head>
-<body>
-    <main></main>
-    <script src="jobsData.js"></script>
-    <script src="index.js"></script>
-</body>
+  </head>
+  <body>
+    <header>
+      <img
+        class="imagemheader"
+        src="../../assets/img/header-bg.png"
+        alt="lugar de mulher é onde ela quiser"
+      />
+      <div class="container_descricao_header">
+      <h3 class="titulo_header">Webwomen</h3><br>
+      <h1 class="titulo_header_lugarmulher">Lugar de mulher é onde ela quiser</h1>
+      <p class="paragrafo_header">Está procurando oprtunidades de estágio, emprego ou bolsas de estudo ?<br>
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil ou a redor do mundo ?</p><br>
+      <p class="paragrafo_header_negrito">Confere aqui embaixo o que temos para você</p><br><br>
+      <button type="sumbmit"class="botao_header">Ir para seção de vagas</button>
+    </div>
+    </header>
+    <main>
+      <ul class="ul_vagas">
+      <h1 class="titulo_vagas">Vagas</h1>
+      
+    </ul>
+    <aside>
+      <h1 class="titulo_vagas_selecionada">Vagas selecionadas</h1>
+      <ul class="vagas_selecionadas">
+       
+          
+        </ul>
+      </aside>
+    </main>
+    
+   
+    
+    
+    <script src="./scripts/jobsData.js"></script>
+    <script src="./scripts/card.js"></script>
+  </body>
 </html>
