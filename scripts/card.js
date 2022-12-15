@@ -13,7 +13,7 @@ function criacaocard(produto) {
   titulocard.classList.add("titulo_card");
   const div_pai_cargo_cidade_card = document.createElement("div");
   div_pai_cargo_cidade_card.classList.add("div_pai_cargo_cidade");
-  
+
   const span_cargo_card = document.createElement("span");
   span_cargo_card.classList.add("span_cargo_card");
   const span_cidade_card = document.createElement("span");
@@ -149,7 +149,7 @@ function criacao_card_vagas_selecionas(produto) {
     "botao_remover_vaga_selecionada"
   );
   botao_remover_vaga_selecionada.dataset.cartid = produto.cartid;
-  botao_remover_vaga_selecionada.src = "../../assets/img/trash.png";
+  botao_remover_vaga_selecionada.src = "./assets/img/trash.png";
 
   div_pai_titulo_botao.append(
     titulo_vaga_selecionada,
