@@ -13,6 +13,7 @@ function criacaocard(produto) {
   titulocard.classList.add("titulo_card");
   const div_pai_cargo_cidade_card = document.createElement("div");
   div_pai_cargo_cidade_card.classList.add("div_pai_cargo_cidade");
+  
   const span_cargo_card = document.createElement("span");
   span_cargo_card.classList.add("span_cargo_card");
   const span_cidade_card = document.createElement("span");
