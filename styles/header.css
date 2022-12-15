@@ -17,6 +17,7 @@ header {
   .imagemheader {
     height: 789px;
     margin-left: 0px;
+    object-fit: cover;
   }
 }
 .container_descricao_header {
@@ -31,6 +32,7 @@ header {
     max-width: 100%;
     width: 100%;
     margin-left: 0px;
+    padding-left: 18px;
   }
 }
 .titulo_header {
