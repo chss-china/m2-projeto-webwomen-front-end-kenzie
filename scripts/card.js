@@ -65,7 +65,7 @@ function criacaocard(produto) {
         return elem.id == produto.id;
       });
 
-      //console.log(produto_procurar)
+      
       const produto_novo = {
         ...produto_procurar,
         cartid: cart_selecionadas.length + 1,
@@ -101,7 +101,7 @@ analisa_cart_storage();
 
 rendercriacaocard(jobsData);
 
-//vagas selecionadas
+
 function render_vagas_selecionadas(array) {
   const ul_vagas_selecionadas = document.querySelector(".vagas_selecionadas");
   ul_vagas_selecionadas.innerHTML = "";
@@ -166,22 +166,7 @@ function criacao_card_vagas_selecionas(produto) {
   );
   return li_vaga_selecionada;
 }
-/*function add_vagas_selecionadas() {
-  const botoes = document.querySelectorAll(".botao_candidatar");
-  botoes.forEach((botao) => {
-    botao.addEventListener("click", (evento) => {
-      const produto_procurar = jobsData.find((produto) => {
-        return (produto.id = Number(evento.target.dataset.id));
-      });
-      const produto_novo = {
-        ...produto_procurar,
-        cartid: cart_selecionadas.length + 1,
-      };
-      cart_selecionadas.push(produto_novo);
-      render_vagas_selecionadas(cart_selecionadas);
-    });
-  });
-}*/
+
 function remove_vagas(array) {
   const botaos_remover = document.querySelectorAll(
     ".botao_remover_vaga_selecionada"
