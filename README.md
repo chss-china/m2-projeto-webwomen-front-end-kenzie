@@ -1,4 +1,4 @@
-# Projeto-Webwomen
+# Projeto WebWomen
 
 ## Descrição
 O projeto Webwomen é um programa desenvolvido pela Kenzie Academy Brasil com o objetivo de promover a inclusão e empoderamento feminino na área de tecnologia. No programa é possivel candidatar-se e cancelar a candidatura no site do webWomen
